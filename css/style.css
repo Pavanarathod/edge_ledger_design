@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0.5rem 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.text-primary {
+  color: #93cb52;
+}
+
+#navbar {
+  position: sticky;
+  top: 0;
+  background: #333;
+  color: white;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 1;
+  padding: 1rem;
+}
+
+.nav__ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+#navbar ul li a {
+  color: white;
+  padding: 0.75rem;
+  margin: 0 0.25rem;
+}
+
+#navbar ul li a:hover {
+  background: #93cb52;
+  border-radius: 5px;
+}
+
+/* SHOWCASE */
+
+#showcase {
+  background: #333 url("../images/showcase.jpg") no-repeat center center/cover;
+  height: 100vh;
+  color: white;
+}
+
+.showcase__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 100%;
+  padding: 0 2rem;
+
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.l_heading {
+  font-size: 4rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1;
+}
+.lead {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  display: inline-block;
+  color: white;
+  background-color: #93cb52;
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 5px;
+}
+.btn:hover {
+  background-color: #7ab436;
+}
+
+/* WHAT WE DO */
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 2rem;
+  overflow: hidden;
+}
+.text-center {
+  text-align: center;
+}
+.heading {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1;
+}
+
+.py-1 {
+  padding: 1.5rem;
+}
+
+.items {
+  display: flex;
+  padding: 1rem;
+}
+
+.item {
+  flex: 1;
+  padding: 1rem;
+  text-align: center;
+  background-color: #93cb52;
+  margin: 1rem;
+}
+
+#what .items .item i {
+  background: #172b02;
+  color: white;
+  padding: 1rem;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+/* WHO SECTIONS */
+
+#who {
+  display: flex;
+}
+
+#who div {
+  flex: 1;
+}
+
+.bg__dark {
+  background: #333;
+  color: #fff;
+}
+.p-2 {
+  padding: 1.5rem;
+}
+#who .who__img {
+  background: url(../images/people.jpg) no-repeat center center/cover;
+}
+
+.list {
+  margin: 0.5rem 0;
+  list-style: none;
+}
+
+.list li {
+  padding: 0.5rem;
+  border-bottom: #444 solid 1px;
+}
+
+/* USERS */
+
+.client {
+  height: 50vh;
+}
